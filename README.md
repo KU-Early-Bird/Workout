@@ -61,14 +61,16 @@ Workout repository because local repository failed to push to repository dev1
 
 > WORKOUT FRAGMENT
 
+BEFORE:
 ![Screenshot_20220602_022058](https://user-images.githubusercontent.com/58877998/171516894-64a827bb-9472-45ec-87d5-f02ce60b8a9c.png)
 
-> DIALOG VIEW
+AFTER:
+![Screenshot_20220608_165813](https://user-images.githubusercontent.com/58877998/172609837-330481ad-3f8d-4cc9-96bb-269f1fa56e34.png)
 
-![Screenshot_20220602_070851](https://user-images.githubusercontent.com/58877998/171516976-159c0a5c-4377-4582-bebc-37c5638a1e10.png)
+> DIALOG VIEW (IF USER CLICKED "ENTER" BUTTON WITHOUT CHOOSING ANY EMOJI)
+![Screenshot_20220608_165955](https://user-images.githubusercontent.com/58877998/172609746-90900c7b-5c4b-4918-be2b-ad226dca50a9.png)
 
 > HINT AND LIMIT ON SHORT WORKOUT REVIEW 
-
-![Screenshot_20220602_070923](https://user-images.githubusercontent.com/58877998/171517004-05cf74a6-c6de-4903-9564-eb29adc2d79b.png)
+![Screenshot_20220608_170012](https://user-images.githubusercontent.com/58877998/172609719-efd5c08b-3e64-4dab-b0b3-1dc308a1ca81.png)
 
 
