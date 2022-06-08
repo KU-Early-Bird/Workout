@@ -1,4 +1,3 @@
 package com.example.teampel_1.ui.workout
 
-class WorkoutData {
-}
+data class WorkoutData (var word:String, var meaning: String){}

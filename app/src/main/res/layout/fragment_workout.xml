@@ -186,11 +186,13 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="10dp"
             android:layout_weight="0"
-            android:backgroundTint="#5AB1A9"
-            android:shadowColor="#fffeee"
+            android:backgroundTint="#6ad0de"
+            android:shadowColor="#000"
             android:text="START"
             android:textSize="11dp"
-            app:strokeColor="#fff"
+            android:textStyle="bold"
+            android:textColor="#185251"
+            app:strokeColor="#185251"
             app:strokeWidth="2dp" />
 
         <Button
@@ -198,11 +200,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:backgroundTint="#5AB1A9"
-            android:shadowColor="#fffeee"
+            android:backgroundTint="#6ad0de"
+            android:shadowColor="#000"
             android:text="PAUSE"
             android:textSize="11dp"
-            app:strokeColor="#fff"
+            android:textStyle="bold"
+            android:textColor="#185251"
+            app:strokeColor="#185251"
             app:strokeWidth="2dp" />
 
         <Button
@@ -211,11 +215,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_weight="0"
-            android:backgroundTint="#5AB1A9"
-            android:shadowColor="#fffeee"
+            android:backgroundTint="#6ad0de"
+            android:shadowColor="#000"
+            android:textColor="#185251"
             android:text="RESUME"
+            android:textStyle="bold"
             android:textSize="11dp"
-            app:strokeColor="#fff"
+            app:strokeColor="#185251"
             app:strokeWidth="2dp" />
 
         <Button
@@ -225,24 +231,50 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="15dp"
             android:layout_weight="0"
-            android:backgroundTint="#5AB1A9"
-            android:shadowColor="#fffeee"
+            android:backgroundTint="#6ad0de"
+            android:shadowColor="#000"
+            android:textColor="#185251"
             android:text="STOP"
             android:textSize="11dp"
             android:textStyle="bold"
-            app:strokeColor="#fff"
+            app:strokeColor="#185251"
             app:strokeWidth="2dp" />
 
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="411dp"
-        android:layout_height="467dp"
-        android:layout_marginTop="268dp"
+        android:layout_width="383dp"
+        android:layout_height="309dp"
+        android:layout_marginTop="280dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/completeWorkoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0"
+        android:backgroundTint="#f8bb48"
+        android:shadowColor="#000"
+        android:text="운동 완료"
+        android:textColor="#185251"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872"
+        app:strokeColor="#185251"
+        app:strokeWidth="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
